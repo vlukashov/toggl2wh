@@ -4,6 +4,7 @@
 
 - Step 1: export a 'Detailed' CSV report from Toggle for some time period (https://toggl.com/app/reports/detailed/)
 - Step 2: run the toggl2wh.awk to conwert the report to the workhours import format:
+	
 	```
 	$ chmod +x toggl2wh.awk
 	$ ./toggl2wh.awk toggl-export.csv > wh.txt
